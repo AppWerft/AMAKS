@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">Qbbaam5oJmI1o5n4YraVXrXLrSt4NriM</property>
+    <property name="acs-oauth-key-production" type="string">2uwwKuDqCiSk3pNo4MDx7FJVVW9mM6pI</property>
+    <property name="acs-api-key-production" type="string">fNo2iF8d3Zo3M35hTTdc77Y4f2gpaMjh</property>
+    <property name="acs-oauth-secret-development" type="string">RaQ17Owof97SUeMmsu1sv2b2E83phTQn</property>
+    <property name="acs-oauth-key-development" type="string">cpKIZB9KSCwF35ipyWLTUYAzMOiyzuO0</property>
+    <property name="acs-api-key-development" type="string">T2BuqBApy0mqeYARp6p0vfsGRRzAeljG</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.3.GA</sdk-version>
+    <id>de.appwerft.amaks</id>
+    <name>AMAKS</name>
+    <version>1.0</version>
+    <publisher>rainerschleevoigt</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by rainerschleevoigt</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>true</statusbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>8368b947-f3ae-4415-a680-637ecb5150dc</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.3.0">ti.cloud</module>
+    </modules>
+</ti:app>
