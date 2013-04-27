@@ -7,13 +7,14 @@
     <property name="acs-oauth-key-development" type="string">cpKIZB9KSCwF35ipyWLTUYAzMOiyzuO0</property>
     <property name="acs-api-key-development" type="string">T2BuqBApy0mqeYARp6p0vfsGRRzAeljG</property>
     <deployment-targets>
+        <target device="tizen">false</target>
         <target device="mobileweb">false</target>
         <target device="iphone">true</target>
         <target device="ipad">false</target>
         <target device="android">false</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <sdk-version>2.1.3.GA</sdk-version>
+    <sdk-version>3.1.0.GA</sdk-version>
     <id>de.appwerft.amaks</id>
     <name>AMAKS</name>
     <version>1.0</version>
